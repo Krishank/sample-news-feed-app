@@ -1,2 +1,3 @@
-# ssr-next-js
-This is the sample repo to understand next JS
+# Sample News Feed App
+
+// TO DO update read me
