@@ -1,0 +1,54 @@
+{
+  "name": "news-feeds-app",
+  "version": "1.0.0",
+  "description": "Sample SSR App for newz feed the one can upvote, fetch more, chart etc",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-p dev:*",
+    "dev:start": "nodemon --watch build --exec \"node build/bundle.js\"",
+    "dev:build-server": "webpack --config webpack.server.js --watch",
+    "dev:build-client": "webpack --config webpack.client.js --watch"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krishank/ssr-next-js/issues"
+  },
+  "dependencies": {
+    "axios": "0.18.1",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-es2017": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "compression": "^1.7.4",
+    "concurrently": "3.5.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "1.0.6",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.3",
+    "npm-run-all": "4.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "5.2.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-redux": "5.0.6",
+    "react-router-config": "1.0.0-beta.4",
+    "react-router-dom": "4.2.2",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0",
+    "serialize-javascript": "^2.1.1",
+    "webpack": "^4.42.1",
+    "webpack-dev-server": "^3.1.11",
+    "webpack-merge": "4.1.0",
+    "webpack-node-externals": "1.6.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "style-loader": "^1.1.3",
+    "webpack-cli": "^3.3.11"
+  }
+}
