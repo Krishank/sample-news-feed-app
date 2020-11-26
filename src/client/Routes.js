@@ -1,4 +1,4 @@
-import NewsFeedsContainer, { loadData } from "./containers";
+import NewsFeedsContainer, { loadData } from "./containers/NewsFeedsContainer";
 
 export default [
   {

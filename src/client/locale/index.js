@@ -9,4 +9,17 @@ export const content = {
   errors: {
     serverError: "Error occured while fetching response",
   },
+  labels: {
+    newsFeedsContainer: {
+      top: "top",
+      new: "new",
+      more: "More",
+    },
+    newsFeed: {
+      by: "by",
+      hide: "hide",
+      new: "new",
+      hourAgo: "hours ago",
+    },
+  },
 };
