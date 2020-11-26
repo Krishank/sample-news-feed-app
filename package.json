@@ -3,15 +3,24 @@
   "version": "1.0.0",
   "description": "Sample SSR App for newz feed the one can upvote, fetch more, chart etc",
   "main": "index.js",
+  "license": "ISC",
   "scripts": {
     "start": "run-p dev:*",
     "dev:start": "nodemon --watch build --exec \"node build/bundle.js\"",
     "dev:build-server": "webpack --config webpack.server.js --watch",
-    "dev:build-client": "webpack --config webpack.client.js --watch"
+    "dev:build-client": "webpack --config webpack.client.js --watch",
+    "lint": "eslint src/**/*.js src/**/*.js"
   },
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Krishank/ssr-next-js/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "axios": "0.18.1",
@@ -48,6 +57,11 @@
   },
   "devDependencies": {
     "css-loader": "^3.5.2",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.2",
+    "prettier": "2.2.0",
     "style-loader": "^1.1.3",
     "webpack-cli": "^3.3.11"
   }
