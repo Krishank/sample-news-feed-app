@@ -159,6 +159,18 @@ Please find the working App View below
 
 ![NewsFeedLoadingView](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/error-case.png)
 
+## Accesability Report: Product Listing Page
+
+![W3CREPORT](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/acheckert.png)
+
+## W3C Html Validator: Click Here
+
+![W3CREPORT](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/w3-validate-report.png)
+
+## Performance Metrics and CRP
+
+![PagePerformance](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/perf-and-crp.png)
+
 # TODO's
 
 1. Pipeline and deploy
