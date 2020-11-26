@@ -151,25 +151,25 @@ Please find the working App View below
 
 ![NewsFeedLoadingView](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/news-feeds.png)
 
-## New Feeds Loading View
+## News Feeds Loading View
 
 ![NewsFeedLoadingView](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/load-news-feeds.png)
 
-## New Feeds Error View
+## News Feeds Error View
 
 ![NewsFeedLoadingView](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/error-case.png)
 
-## Accesability Report: Product Listing Page
+## Accesability Report
 
-![W3CREPORT](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/acheckert.png)
+![W3CREPORT](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/achecker.png)
 
-## W3C Html Validator: Click Here
+## W3C Html Validator
 
 ![W3CREPORT](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/w3-validate-report.png)
 
 ## Performance Metrics and CRP
 
-![PagePerformance](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/perf-and-crp.png)
+![PagePerformance](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/perf-and-crp.gif)
 
 # TODO's
 
