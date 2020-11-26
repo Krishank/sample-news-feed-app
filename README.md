@@ -61,6 +61,10 @@ This App is using multiple dev tools like husky, prettier, ESlint to insure code
 - [ES6](http://es6-features.org/)
 - [Webpack 4](https://webpack.js.org/)
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+- [prettier](https://prettier.io/)
+- [Husky](https://www.npmjs.com/package/husky)
+- [Lighthouse](https://www.npmjs.com/package/lighthouse)
+
 
 ## App Structure
 
