@@ -2,6 +2,8 @@
 
 ## Working App
 
+![NewsFeedsGIF](https://raw.githubusercontent.com/Krishank/sample-news-feed-app/main/news-feeds.gif)
+
 ## Prerequisite
 
 ```
@@ -168,4 +170,4 @@ Please find the working App View below
 2. Could have used ATOMIC Pattern (Had Less time but in my other project I have used it https://github.com/Krishank/ecommerce-react-example/tree/master/src/app/components)
 3. Could have used storybook for all atoms make a DSL (This is small project so no need of that)
 4. Could have used TS as My current project is already using it.
-5. I could have used Next JS as its looking more promising but due to the lack of time I choose a simple setup
+5. I could have used Next JS as its looking more promising but I choose the custom setup used before
