@@ -1,17 +1,17 @@
-import React, { Fragment } from "react";
-import PropTypes from "prop-types";
-import { getForMattedURL } from "../utils";
-import { content } from "../locale";
-import { NewsFeedStyles } from "./NewsFeedStyles";
+import React, { Fragment } from "react"
+import PropTypes from "prop-types"
+import { getForMattedURL } from "../utils"
+import { content } from "../locale"
+import { NewsFeedStyles } from "./NewsFeedStyles"
 /**
  * @desc News Feed component can use to render single News Feed
  * this component manages its own style
  */
 
 const NewsFeed = React.memo((props) => {
-  console.log(`The prop data in NewsFeed is ${JSON.stringify(props)}`);
-  const { points, num_comments, author, title, url, created_at_i } = props.feed;
-  const { index, updateVotes, hideNews } = props;
+  console.log(`The prop data in NewsFeed is ${JSON.stringify(props)}`)
+  const { points, num_comments, author, title, url, created_at_i } = props.feed
+  const { index, updateVotes, hideNews } = props
   const {
     padding10,
     paddingRight0,
@@ -24,7 +24,7 @@ const NewsFeed = React.memo((props) => {
     hideNewsLink,
     hideNewsLinkWrapper,
     pointer,
-  } = NewsFeedStyles;
+  } = NewsFeedStyles
 
   return (
     <Fragment>
@@ -66,8 +66,8 @@ const NewsFeed = React.memo((props) => {
         </td>
       </tr>
     </Fragment>
-  );
-});
+  )
+})
 
 NewsFeed.propTypes = {
   feed: PropTypes.shape({
@@ -80,5 +80,5 @@ NewsFeed.propTypes = {
   }).isRequired,
   updateVotes: PropTypes.func.isRequired,
   hideNews: PropTypes.func.isRequired,
-};
-export default NewsFeed;
+}
+export default NewsFeed
