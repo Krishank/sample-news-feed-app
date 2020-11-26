@@ -179,6 +179,7 @@ Please find the working App View below
 
 1. Pipeline and deploy
 2. Graph
+3. Unit Test
 
 ## Improvement or other approaches
 
