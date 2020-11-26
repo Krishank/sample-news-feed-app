@@ -27,5 +27,8 @@ export const NewsFeedsContainerStyles = {
     position: "fixed",
     background: "rgb(246, 246, 239)",
     opacity: ".5",
+    display: "grid",
+    alignItems: "center",
+    justifyContent: "center",
   },
-};
+}
